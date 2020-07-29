@@ -24,6 +24,8 @@ Its Hard to Install Every Huge Tool like Metasploit, Kali Nethunter Rootless and
  ### Installation Termux-Megapackage
  * `Commands` for termux
 ```
+$ termux-setup-storage
+
 $ pkg update && pkg upgrade && pkg install git -y
 
 $ git clone https://github.com/Bhaviktutorials/Termux-Megapackage
@@ -40,7 +42,7 @@ $ bash godmode.sh
 
 $ bash metasploit.sh
 
-$ bash tools.sh
+$ bash megatools.sh
 
 $ bash kali.sh
 
@@ -50,7 +52,7 @@ $ bash kali.sh
  ### List Of Available Packages
  1. *_GodMode_*
  2. *_Metasploit_*
- 3. *_Termux-all-tools_*
+ 3. *_Termux-Megatools_*
     * HidddenEye
     * TBomb
     * Zphisher
