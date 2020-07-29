@@ -2,7 +2,7 @@
  <a><img title="Built With Love" src="https://forthebadge.com/images/badges/built-with-love.svg" ></a>
  
 # <p align="center">Termux-Megapackage
-![termux-meg](https://user-images.githubusercontent.com/68908732/88683463-75400300-d111-11ea-967c-9b80e94f36ab.jpg)
+![termux-meg](https://user-images.githubusercontent.com/64035221/88762779-77e13d80-d18f-11ea-8166-7caa51081284.jpg)
 #### <p align="center">This is official repository maintained by us
 #### <p align="center"> **@Bhavik Tutorials** ❤️
 #### <p align="center">You can check [youtube](https://youtube.com/bhaviktutorials)✌
