@@ -17,21 +17,34 @@
  ### Installation Termux-Megapackage
  * `Commands` for termux
 
- `
+```
 $ pkg update && pkg upgrade && pkg install git -y
+
 $ git clone https://github.com/Bhaviktutorials/Termux-Megapackage
+
 $ ls
+
 $ cd Termux-Megapackage
+
 $ ls
+
 $ chmod +x godmode.sh
+
 $ chmod +x metasploit.sh
+
 $ chmod +x tools.sh
+
 $ chmod +x kali.sh
+
 $ bash godmode.sh
+
 $ bash metasploit.sh
+
 $ bash tools.sh
+
 $ bash kali.sh
-`
+
+```
  #### You can download the required package as per your need :) (Just Open Issue As A Package Request)
  ### List Of Available Packages
  1. GodMode
