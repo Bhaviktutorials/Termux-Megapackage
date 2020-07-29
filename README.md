@@ -12,7 +12,7 @@
 </p>
 
 ###### <p align="center">This is official repository maintained by us
-###### <p align="center"> *@Bhavik Tutorials* ❤️
+###### <p align="center"> [**@Bhavik_Tutorials**](https://www.instagram.com/bhavik_tutorials/) ❤️
 ###### <p align="center">You can check [youtube](https://youtube.com/bhaviktutorials)✌
  ### Installation Termux-Megapackage
  * `Commands` for termux
