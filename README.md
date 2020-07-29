@@ -4,7 +4,7 @@
 # <p align="center">Termux-Megapackage
 ![termux-meg](https://user-images.githubusercontent.com/68908732/88683463-75400300-d111-11ea-967c-9b80e94f36ab.jpg)
 <p align="center">
-      All In One Package For Termux
+      *All In One Package For Termux*
 <p align="center">
   <a href="https://github.com/Bhaviktutorials"><img title="Open Source Love" src="https://badges.frapsoft.com/os/v2/open-source.png?v=103" ></a>
   <a href="https://github.com/Bhaviktutorials/Termux-Megapackage"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0" ></a>
@@ -13,9 +13,9 @@
   <a href="https://instagram.com/saydog.official"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-Bhavik_Tutorials-Blue"/></a>
 </p>
 
-###### <p align="center">This is official repository maintained by us
-###### <p align="center"> [**@Bhavik_Tutorials**](https://www.instagram.com/bhavik_tutorials/) ❤️
-###### <p align="center">You can check [youtube](https://youtube.com/bhaviktutorials)✌
+###### <p align="center">*This is official repository maintained by us*
+###### <p align="center"> *[**@Bhavik_Tutorials**](https://www.instagram.com/bhavik_tutorials/) ❤️*
+###### <p align="center"> *You can check [youtube](https://youtube.com/bhaviktutorials)✌*
 ### What is Megapackage??
 Its Hard to Install Every Huge Tool like Metasploit, Kali Nethunter Rootless and Other Neccesarry Tools Together in Click. So We Thought to Build a Package where you Guys Can Install all this Just in Click But thats not only Feature of this Megapackage. We guys also have include a GodeMode(Termux-Black) Which Slightly reduce the error of unlocated package because of little change in sources.list Which make this Termux-Megapackage as Good as Heaven for Termux User.
  ### Installation Termux-Megapackage
