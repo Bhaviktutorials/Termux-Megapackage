@@ -61,7 +61,7 @@ $ bash kali.sh
  ### Screenshots
 ***
  ### Tools edited
- * Ashish (ashishsingh103020@gmail.com)
+ * Ashish (7977821437)
  * Bhavik (ozabhavik2@gmail.com)
  ## Special Thanks to the Contributers
  1) Hax4us (Termux Black & Metasploit)
