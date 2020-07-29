@@ -6,6 +6,7 @@
 <p align="center">
   <a href="https://github.com/Bhaviktutorials"><img title="Open Source Love" src="https://badges.frapsoft.com/os/v2/open-source.png?v=103" ></a>
   <a href="https://github.com/Bhaviktutorials/Termux-Megapackage"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0" ></a>
+<a href="https://github.com/Bhaviktutorials"><img title="GitHub version" src="https://img.shields.io/github/license/Bhaviktutorials/Termux-Megapackage" ></a>
   <a href="https://youtube.com/bhaviktutorials"><img alt="Youtube" src="https://img.shields.io/badge/Youtube-Bhavik Tutorials-green"/></a>
   <a href="https://instagram.com/saydog.official"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-Bhavik_Tutorials-Blue"/></a>
 </p>
@@ -17,15 +18,19 @@
  * `Commands` for termux
 
  `
-pkg update && pkg upgrade && pkg install git -y
-git clone https://github.com/Bhaviktutorials/Termux-Megapackage
-ls
-cd Termux-Megapackage
-ls
-chmod +x godmode.sh
-chmod +x metasploit.sh
-chmod +x tools.sh
-chmod +x kali.sh
+$ pkg update && pkg upgrade && pkg install git -y
+$ git clone https://github.com/Bhaviktutorials/Termux-Megapackage
+$ ls
+$ cd Termux-Megapackage
+$ ls
+$ chmod +x godmode.sh
+$ chmod +x metasploit.sh
+$ chmod +x tools.sh
+$ chmod +x kali.sh
+$ bash godmode.sh
+$ bash metasploit.sh
+$ bash tools.sh
+$ bash kali.sh
 `
  #### You can download the required package as per your need :) (Just Open Issue As A Package Request)
  ### List Of Available Packages
