@@ -10,7 +10,7 @@
  * `Commands` for termux
  ```
 pkg update && pkg upgrade && pkg install git -y
-git clone https://github.com/Bhavik-Tutorials/Termux-Megapackage
+git clone https://github.com/Bhaviktutorials/Termux-Megapackage
 ls
 cd Termux-Megapackage
 ls
