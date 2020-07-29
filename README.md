@@ -4,7 +4,7 @@
 # <p align="center">Termux-Megapackage
 ![termux-meg](https://user-images.githubusercontent.com/68908732/88683463-75400300-d111-11ea-967c-9b80e94f36ab.jpg)
 <p align="center">
-      *All In One Package For Termux*
+      All In One Package For Termux
 <p align="center">
   <a href="https://github.com/Bhaviktutorials"><img title="Open Source Love" src="https://badges.frapsoft.com/os/v2/open-source.png?v=103" ></a>
   <a href="https://github.com/Bhaviktutorials/Termux-Megapackage"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0" ></a>
@@ -49,7 +49,8 @@ $ bash tools.sh
 $ bash kali.sh
 
 ```
- #### You can download the required package as per your need :) (Just Open Issue As A Package Request)
+ #### You can download the required package as per your need :)
+ (Just Open Issue As A Package Request)
  ### List Of Available Packages
  1. *_GodMode_*
  2. *_Metasploit_*
@@ -63,7 +64,7 @@ $ bash kali.sh
  4. *_kali-nethunter-termux_*
  ### Tools edited
  * Ashish ashishsingh103020@gmail.com
- * Bhavik ozabhavik2@gmail.com
+ * [Bhavik](ozabhavik2@gmail.com)
  ## Special Thanks to the Developer of tools
  ### Tools Developer
  1) Hax4us ( termux black & Metasploit)
