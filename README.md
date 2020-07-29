@@ -34,13 +34,7 @@ $ cd Termux-Megapackage
 
 $ ls
 
-$ chmod +x godmode.sh
-
-$ chmod +x metasploit.sh
-
-$ chmod +x tools.sh
-
-$ chmod +x kali.sh
+$ chmod +x *
 
 $ bash godmode.sh
 
