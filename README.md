@@ -63,12 +63,11 @@ $ bash kali.sh
     * NexPhisher
  4. *_kali-nethunter-termux_*
  ### Tools edited
- * Ashish ashishsingh103020@gmail.com
- * [Bhavik](ozabhavik2@gmail.com)
- ## Special Thanks to the Developer of tools
- ### Tools Developer
- 1) Hax4us ( termux black & Metasploit)
+ * Ashish (ashishsingh103020@gmail.com)
+ * Bhavik (ozabhavik2@gmail.com)
+ ## Special Thanks to the Contributers
+ 1) Hax4us (Termux Black & Metasploit)
  2) Darksec-Developer (HiddenEye)
  3) ThespeedX (TBomb)
  4) htr-tech (zphisher & nexphisher)
- 5) saydog ( saydog-framework)
+ 5) saydog (Saydog-framework)
