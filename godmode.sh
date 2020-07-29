@@ -1,45 +1,27 @@
-#!/usr/bin/env sh
+termux-setup-storage
+pkg update -y
+pkg upgrade -y
+pkg install wget -y
+wget https://github.com/Hax4us/TermuxBlack/raw/master/install.sh
+sh install.sh
 
-# Create separate directory for my repositor
-decoration() {
-        apt-get update -yq --silent
-        apt-get install gnupg -yq --silent
-	pkg install python -y
-	pkg install ncurses-utils -y
-	pkg install figlet -y
-	pkg install ruby -y
-	pip install lolcat 
-	gem install lolcat
-        mkdir -p ~/.termux
-        for i in colors.properties termux.properties font.ttf; do
-                wget -q https://github.com/Hax4us/TermuxBlack/raw/master/style/$i -O ~/.termux/$i
-        done                                                                                                                                #rm -r $PREFIX/etc/motd
-        #echo "toilet -F metal -F border -f future termux black" >> $PREFIX/etc/bash.bashrc
-        cp $PREFIX/etc/bash.bashrc $PREFIX/etc/bash.bashrc.bk
-        sed -i s:PS1.*:"PS1=\'\\\\[\\\\e\[1\;34m\\\\] GodMode > \\\[\\\e[0;37m\\\\]\'": $PREFIX/etc/bash.bashrc
-}
 
-addrepo() {
-        # Add repo in separate file
-        mkdir -p $PREFIX/etc/apt/sources.list.d && printf "deb https://hax4us.github.io/TermuxBlack/ termuxblack main" > $PREFIX/etc
-/apt/sources.list.d/termuxblack.list
+#installing the following req to meet the dependies of the tools
+pkg install ncurses-utils -y
+pkg install python -y
+pkg install ruby -y
+pkg install figlet -y
+pip install lolcat -y
+gem install lolcat
 
-        # Add gpg public key
-        wget -q https://hax4us.github.io/TermuxBlack/termuxblack.key -O termuxblack.key && apt-key add termuxblack.key
-
-        # just update
-        apt-get update -yq --silent
-}
-
-echo "[*] Installing TermuXBlacK ..."
-decoration
-addrepo
-echo "[*] Finished :)"
-# Now trigger broadcast to make changes visible
-am broadcast --user 0 -a com.termux.app.reload_style com.termux > /dev/null
-echo "[*] Now open new session & enjoy"
-
+# termux black has been installed removing the properties of it 
 rm ~/.termux/colors.properties
+
+#God mode has been enabled here
+
+cp $PREFIX/etc/bash.bashrc $PREFIX/etc/bash.bashrc.bk && sed -i s:PS1.*:"PS1=\'\\\\[\\\\e\[1\;34m\\\\]GodMode > \\\[\\\e[0;37m\\\\]\'": $PREFIX/etc/bash.bashrc
+#TOOLS Develop by HAX4US
+#SPECIAL THANKS TO LOKESH PANDEY (HAX4US)
 
 # This script prints a message about channel subscription
 # If subscribe @ thankyou else @  please subscribe the channel
@@ -52,7 +34,7 @@ tput cup 9 0
 echo -en "\e[93m what is your name : \e[m"
 read answer
 tput cup 12 22
-echo -e "\e[104m hello! Open A New Session! $answer! \e[m"
+echo -e "\e[104m hello! Open a New Session! $answer! \e[m"
 tput cup 15 0
 echo -en "\e[93m Have you subscribe our channel (y/n)? \e[m "
 read answer
