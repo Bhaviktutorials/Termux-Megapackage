@@ -65,7 +65,7 @@ $ bash kali.sh
 ![_GodMode_](https://user-images.githubusercontent.com/64035221/88885579-6747ca80-d256-11ea-8ad2-aee11f56a26c.jpg)
 
 Megapackage Files:-
-![Package Files](https://user-images.githubusercontent.com/64035221/88885828-de7d5e80-d256-11ea-94e1-196258e72c6b.jpg)
+![Megapackage Files](https://user-images.githubusercontent.com/64035221/88886226-9c085180-d257-11ea-8ebe-96e736c8c2e7.jpg)
 
 Tools:-
 ![Tools:-](https://user-images.githubusercontent.com/64035221/88885828-de7d5e80-d256-11ea-94e1-196258e72c6b.jpg)
