@@ -61,6 +61,17 @@ $ bash kali.sh
     * NexPhisher
  4. *_kali-nethunter-termux_*
  ### Screenshots
+ After Installing _GodMode_:-
+![_GodMode_](https://user-images.githubusercontent.com/64035221/88885579-6747ca80-d256-11ea-8ad2-aee11f56a26c.jpg)
+
+Megapackage Files:-
+![Package Files](https://user-images.githubusercontent.com/64035221/88885828-de7d5e80-d256-11ea-94e1-196258e72c6b.jpg)
+
+Tools:-
+![Tools:-](https://user-images.githubusercontent.com/64035221/88885828-de7d5e80-d256-11ea-94e1-196258e72c6b.jpg)
+
+Kali Nethunter:-
+![Screenshot_20200730_111138](https://user-images.githubusercontent.com/64035221/88886028-4633a980-d257-11ea-8049-65082840b1b3.jpg)
 ***
  ### Tools edited
  * Ashish (7977821437)
