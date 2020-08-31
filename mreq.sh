@@ -1,13 +1,20 @@
 #!/data/data/com.termux/files/usr/bin/bash
 #Downloading the req dependencies to run a script without error
+clear
+
+#updating terminal
+echo 
+echo -e "\e[32m[\e[34m*\e[32m]\e[36m Installing Termux-Megapackage \e[m "
+echo
 apt-get update -yq --silent
 apt-get upgrade -y
 apt-get install python -y
 apt-get install ruby -y
 pip install install lolcat
 gem install lolcat 
+pkg install ncurses-utils -y
 
-mv megapackage /data/data/com.termux/files/usr/bin
+mv m-pkg /data/data/com.termux/files/usr/bin
 echo
 
 echo -en "\e[92m Do you wish to see a practical video on it (y/n)? \e[m "
@@ -18,6 +25,9 @@ read answer
 	echo
    fi
 
+echo 
+echo -e "\e[33m Run \e[32m m-pkg \e[33m From anywhere to install megapackages tools \e[m "
+echo
 cd $HOME
 rm -rf Termux-Megapackage
 echo
