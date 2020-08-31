@@ -1,0 +1,473 @@
+#!/data/data/com.termux/files/usr/bin/bash
+clear
+echo " "
+echo "
+          █▀▄▀█ █▀▀ █▀▀ ▄▀█ █▀█ ▄▀█ █▀▀ █▄▀ ▄▀█ █▀▀ █▀▀
+          █ ▀ █ ██▄ █▄█ █▀█ █▀▀ █▀█ █▄▄ █ █ █▀█ █▄█ ██▄
+	                                                V 1.0" | lolcat	      
+echo "                   >>> created by:-A S H I S H " |lolcat
+echo "              >>> Keep Supporting:-bhaviktutorials " |lolcat
+echo " "
+echo -e "\e[92m=======================================================================\e[m "
+echo -e "\e[32m[\e[33m01\e[32m]\e[96m zphisher \e[m                      \e[32m[\e[33m11\e[32m]\e[96m ubuntu-in-termux \e[m "                  
+echo -e "\e[32m[\e[33m02\e[32m]\e[96m HiddenEye \e[m                     \e[32m[\e[33m12\e[32m]\e[96m ghost \e[m "
+echo -e "\e[32m[\e[33m03\e[32m]\e[96m AdvPhishing \e[m                   \e[32m[\e[33m13\e[32m]\e[96m TBomb \e[m "
+echo -e "\e[32m[\e[33m04\e[32m]\e[96m GodMode \e[m                       \e[32m[\e[33m14\e[32m]\e[96m WishFish \e[m "
+echo -e "\e[32m[\e[33m05\e[32m]\e[96m T-Remix \e[m                       \e[32m[\e[33m15\e[32m]\e[96m Impulse \e[m "
+echo -e "\e[32m[\e[33m06\e[32m]\e[96m Wirehsark \e[m                     \e[32m[\e[33m16\e[32m]\e[96m lockphish \e[m "
+echo -e "\e[32m[\e[33m07\e[32m]\e[96m nexphisher \e[m                    \e[32m[\e[33m17\e[32m]\e[96m RED_HAWK \e[m "
+echo -e "\e[32m[\e[33m08\e[32m]\e[96m metasploit-framework \e[m          \e[32m[\e[33m18\e[32m]\e[96m termux-omz \e[m "
+echo -e "\e[32m[\e[33m09\e[32m]\e[96m kali-nethunter-termux \e[m         \e[32m[\e[33m19\e[32m]\e[96m Cupp \e[m "
+echo -e "\e[32m[\e[33m10\e[32m]\e[96m sqlmap \e[m                        \e[32m[\e[33m20\e[32m]\e[96m FakeRoot \e[m "
+echo -e "\e[92m=======================================================================\e[m "
+echo " "
+read -p $'\e[34m[*]\e[33mEnter Your Choice : \e[0m' n
+
+if [[ $n == 1 || $n == 01 ]]; then
+
+	     DIR="$HOME/zphisher"
+	        if [ -d "$DIR" ]; then
+	     echo -e "\e[32mIts Already Exist \e[m "
+		exit
+	     else
+	        echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing Zphisher \e[m "
+	      sleep 5
+	      clear
+	      cd $HOME
+	      apt-get install curl php openssh -yq --silent
+              git clone git://github.com/htr-tech/zphisher.git
+              cd zphisher
+	      bash zphisher.sh
+	      cd $HOME
+
+elif [[ $n == 2 || $n == 02 ]]; then
+
+	     DIR="$HOME/HiddenEye"
+                if [ -d "$DIR" ]
+	     then
+		echo -e"\e[32mIts Already Exist \e[m"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing HiddenEye \e[m "
+	      sleep 5
+	      clear
+	      cd $HOME
+	      pkg install git python php curl openssh grep
+	      git clone https://github.com/DarkSecDevelopers/HiddenEye.git
+	      chmod 777 HiddenEye
+	      pip install requests
+	      cd HiddenEye
+	      pip install -r requirements.txt && pip install requests
+	      python HiddenEye.py
+	      cd $HOME
+
+elif [[ $n == 3 || $n == 03 ]]; then
+
+	     DIR="$HOME/AdvPhishing"
+		if [ -d "$DIR" ]
+	     then
+	        echo -e"\e[32mIts Already Exist \e[m"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing AdvPhishing \e[m "
+	      sleep 5
+	      clear
+	      cd $HOME
+	      git clone https://github.com/Ignitetch/AdvPhishing.git
+	      cd AdvPhishing
+	      chmod 777 start.sh
+	      ./start.sh
+	      ./An-AdvPhishing.sh
+	      cd $HOME
+ 
+elif [[ $n == 4 || $n == 04 ]]; then
+
+	      echo -e "\e[34m[*] Installing GodMode \e[m "
+	      sleep 5
+	      clear
+	      cd $HOME
+	      apt-get install wget -yq --silent
+	      wget https://github.com/Hax4us/TermuxBlack/raw/master/install.sh
+	      sh install.sh
+	      touch newbash.txt
+	      echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
+		      	command_not_found_handle() {
+						/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+							}
+	      fi
+
+	      PS1='\$ ' " >> newbash.txt
+
+              cd /data/data/com.termux/files/usr/etc
+	      rm -rf bash.bashrc
+	      touch bash.bashrc
+	      cd $HOME
+	      cat "newbash.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+	      rm newbash.txt
+	      cp $PREFIX/etc/bash.bashrc $PREFIX/etc/bash.bashrc.bk && sed -i s:PS1.*:"PS1=\'\\\\[\\\\e\[1\;92m\\\\]GodMode > \\\[\\\e[0;37m\\\\]\'": $PREFIX/etc/bash.bashrc
+              rm ~/.termux/colors.properties
+
+elif [[ $n == 5 || $n == 05 ]]; then
+
+             DIR="$HOME/T-Remix"
+		if [ -d "$DIR" ]
+	     then 
+		echo -e"\e[32mIts Already Exist \e[m"
+	        exit
+	     else
+	        echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing T-Remix \e[m "
+	      sleep 5
+	      clear
+	      cd $HOME
+	      git clone https://github.com/Bhaviktutorials/T-Remix
+	      cd T-Remix
+	      chmod +x *
+	      bash t-remix.sh
+	      cd $HOME
+
+elif [[ $n == 6 || $n == 06 ]]; then
+
+	   DIR="$HOME/Wireshark"
+	          if [ -d "$DIR" ]
+	     then
+		  echo -e"\e[32mIts Already Exist \e[m"
+		  exit
+	    else
+		  echo " "
+	      fi
+
+	      echo -e "\e[34m[*] Installing Wireshark \e[m "
+	      sleep 5
+	      clear
+	      cd $HOME
+	      apt update && apt upgrade -y
+	      pkg install x11-repo
+	      apt install wireshark-gtk
+	      pkg install xterm
+	      apt install tigervnc
+	      apt install tigervnc-viewer
+	      cd $HOME
+
+elif [[ $n == 7 || $n == 07 ]]; then
+
+	     DIR="$HOME/nexphisher"
+	        if [ -d "$DIR" ]
+	     then
+	        echo -e"\e[32mIts Already Exist \e[m"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing nexphisher \e[m "
+	      sleep 5
+	      clear
+	      cd $HOME
+	      git clone git://github.com/htr-tech/nexphisher.git
+	      cd nexphisher
+	      chmod +x *
+	      bash setup
+	      bash nexphisher
+	      cd $HOME
+
+elif [[ $n == 8 || $n == 08 ]]; then
+
+              echo -e "\e[34m[*] Installing metasploit-framework \e[m "
+	      sleep 5
+	      clear
+	      cd $HOME
+	      apt-get install wget -yq --silent
+	      wget https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh 
+	      chmod +x metasploit.sh
+	      ./metasploit.sh
+
+elif [[ $n == 9 || $n == 09 ]]; then
+
+	      echo -e "\e[34m[*] Installing Kali-nethunter-termux \e[m "
+	      sleep 7
+	      clear
+	      cd $HOME
+	      apt-get install wget -yq --silent
+	      wget -O install-nethunter-termux https://offs.ec/2MceZWr
+	      chmod +x install-nethunter-termux
+	      ./install-nethunter-termux
+
+elif [[ $n == 10 ]]; then
+
+	     DIR="$HOME/ipdrone"
+		if [ -d "$DIR" ]
+	     then 
+		echo -e "\e[32mIts Already Exist \[em"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing ipdrone \e[m "
+	      sleep 7
+	      clear
+	      cd $HOME
+	      apt-get install python -y
+	      pkg install python2 -y
+	      git clone https://github.com/sqlmapproject/sqlmap.git
+	      cd 
+	      ls
+	      sqlmap-dev
+	      python2 sqlmap.py
+	      echo 
+	      echo "for Help type: python sqlmap.py -h or python sqlmap.py -hh "
+	      echo
+	      cd $HOME
+              
+elif [[ $n == 11 ]]; then
+
+	     DIR="$HOME/ubuntu-in-termux"
+		if [ -d "$DIR" ]
+	     then 
+		echo -e "\e[32mIts Already Exist \e[m"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing Ubuntu-in-termux \e[m "
+	      sleep 7
+	      clear
+	      cd $HOME
+	      apt-get update && apt-get upgrade -y
+	      apt-get install wget -y
+	      apt-get install proot -y
+	      apt-get install git -y
+	      git clone https://github.com/MFDGaming/ubuntu-in-termux.git
+	      cd ubuntu-in-termux
+	      chmod +x ubuntu.sh
+	      ./ubuntu.sh -y
+	      echo
+	      echo -e "\e[34m[\e[32m*\e[34m]\e[92m Successfully installed ubuntu in your device \e[m "
+	      echo
+	      echo -e "\e[34m[\e[32m*\e[34m]\e[92 Now run : ./startubuntu.sh \e[m "
+	      cd $HOME
+
+elif [[ $n == 12 ]]; then
+
+	     DIR="$HOME/ghost"
+	        if [ -d "$DIR" ]
+	     then 
+	        echo -e "\e[32mIts Already Exist \[em"
+	        exit
+             else
+	        echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing ghost \e[m "
+              sleep 7
+	      clear
+	      cd $HOME
+	      git clone https://github.com/entynetproject/ghost.git
+	      cd ghost
+	      chmod +x install.sh
+	      cd $HOME
+
+elif [[ $n == 13 ]]; then
+
+	     DIR="$HOME/TBomb"
+		if [ -d "$DIR" ]
+	     then 
+		echo -e "\e[32mIts Already Exist \[em"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing TBomb \e[m " 
+	      sleep 7
+	      clear
+	      cd $HOME
+	      apt-get install python -yq --silent
+	      apt-get install python2 -yq --silent
+	      git clone https://github.com/TheSpeedX/TBomb
+	      cd TBomb
+	      chmod +x TBomb.sh
+	      bash TBomb.sh
+	      cd $HOME
+	      
+elif [[ $n == 14 ]]; then
+
+	     DIR="$HOME/WishFish"
+		if [ -d "$DIR" ]
+	     then 
+	        echo -e "\e[32mIts Already Exist \[em"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing WishFish \e[m "
+	      sleep 7
+	      clear
+	      cd $HOME
+              apt-get install php wget openssh -yq --silent
+	      git clone https://github.com/kinghacker0/WishFish
+	      cd WishFish
+	      chmod +x wishfish.sh
+	      bash wishfish.sh
+	      cd $HOME
+
+elif [[ $n == 15 ]]; then
+
+	     DIR="$HOME/Impulse"
+		if [ -d "$DIR" ]
+	     then 
+	        echo -e "\e[32mIts Already Exist \[em"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing Impulse \e[m "
+	      sleep 7
+	      clear
+	      cd $HOME
+	      pkg install python3 python3-pip git -y
+	      git clone https://github.com/LimerBoy/Impulse
+	      cd Impulse
+	      pip3 install -r requirements.txt
+              echo " "
+	      echo " "
+	      echo -e "               \e[32mFOR TOOL HELP TYPE : \e[33mpython3 impulse.py --help \e[m "
+	      echo " "
+	      sleep 1
+	      echo -e "  \e[31mEx: python3 impulse.py --method SMS --time 20 --threads 15 --target +380123456789 \e[m "
+	      sleep 1
+	      echo
+	      cd $HOME
+
+elif [[ $n == 16 ]]; then
+
+	     DIR="$HOME/lockphish"
+		if [ -d "$DIR" ]
+	     then 
+		echo -e "\e[32mIts Already Exist \[em"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing lockphish \e[m "
+              sleep 7
+	      clear
+	      cd $HOME
+	      git clone https://github.com/JasonJerry/lockphish
+	      cd lockphish
+	      bash lockphish.sh
+	      cd $HOME
+
+elif [[ $n == 17 ]]; then
+
+	     DIR="$HOME/RED_HAWK"
+	        if [ -d "$DIR" ]
+	     then 
+		echo -e "\e[32mIts Already Exist \[em"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing RED_HAWK \e[m "
+	      sleep 7
+	      clear
+	      cd $HOME
+	      pkg install php git 
+	      git clone https://github.com/Tuhinshubhra/RED_HAWK
+	      chmod +x RED_HAWK
+	      cd RED_HAWK
+	      php rhawk.php
+	      cd $HOME
+
+elif [[ $n == 18 ]]; then
+
+             DIR="$HOME/termux-omz"
+		if [ -d "$DIR" ]
+	     then 
+	        echo -e "\e[32mIts Already Exist \[em"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing termux-omz \e[m "
+	      sleep 7
+	      clear
+	      cd $HOME
+	      git clone https://github.com/adi1090x/termux-omz.git
+	      cd termux-omz
+	      chmod +x install
+	      ./install
+	      cd $HOME
+
+elif [[ $n == 19 ]]; then
+
+	     DIR="$HOME/cupp"
+		if [ -d "$DIR" ]
+	     then 
+		echo -e "\e[32mIts Already Exist \[em"
+		exit
+	     else
+		echo " "
+	     fi
+
+	      echo -e "\e[34m[*] Installing cupp \e[m "
+	      sleep 7
+	      clear
+	      cd $HOME
+	      apt-get install python3 -yq --silent
+	      git clone https://github.com/Mebus/cupp.git 
+	      cd cupp
+	      echo " "
+	      echo " "
+	      echo -e "\e[32mRUN:\e[33m python3 cupp.py -i (To create a passwd list) \e[m "
+	      echo " "
+	      sleep 3
+	      python3 cupp.py
+	      cd $HOME
+
+elif [[ $n == 20 ]]; then
+
+	     DIR="$HOME/FakeRoot"
+		if [ -d "$DIR" ]
+	     then 
+		echo -e "\e[32mIts Already Exist \[em"
+		exit 0
+	     else
+                echo " "
+	      fi
+
+	      echo -e "\e[34m[*] Installing FakeRoot \e[m "
+	      sleep 7
+	      clear
+	      cd $HOME
+	      pkg update && pkg upgrade
+	      pkg install proot
+	      pkg install proot-distro
+	      git clone https://github.com/MaulanaRyM/FakeRoot.git
+	      pkg install git python2 -y
+	      cd FakeRoot
+	      python2 root.py
+	      cd $HOME
+else
+	      echo -e "\e[33m[\e[31m!\e[33m]\e[91mInvalid option \e[m" 
+fi	  
+  echo " "
+  exit
