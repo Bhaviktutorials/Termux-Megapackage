@@ -1,10 +1,13 @@
 #!/data/data/com.termux/files/usr/bin/bash
+
+############################################
+#        Project : T-Megapackage           #
+#          author : Ashish                 #
+#  EMAIL : ashishsingh103020@gmail.com     #
+############################################
+
 clear
-#################################
-#    Project : T-Megapackage    #
-#       author : Ashish         #
-#################################
-echo " "
+echo 
 echo "
           █▀▄▀█ █▀▀ █▀▀ ▄▀█ █▀█ ▄▀█ █▀▀ █▄▀ ▄▀█ █▀▀ █▀▀
           █ ▀ █ ██▄ █▄█ █▀█ █▀▀ █▀█ █▄▄ █ █ █▀█ █▄█ ██▄
@@ -78,24 +81,23 @@ elif [[ $n == 2 || $n == 02 ]]; then
 
 elif [[ $n == 3 || $n == 03 ]]; then
 
-	     DIR="$HOME/AdvPhishing"
+	     DIR="$HOME/shark"
 		if [ -d "$DIR" ]
 	     then
 	     cd $HOME
-             cd AdvPhishing
-	     ./An-AdvPhishing.sh
-
+             shark
+	    
 	     else
 
-	      echo -e "\e[34m[*] Installing AdvPhishing \e[m "
+	      echo -e "\e[34m[*] Installing shark \e[m "
 	      sleep 5
 	      clear
 	      cd $HOME
-	      git clone https://github.com/Ignitetch/AdvPhishing.git
-	      cd AdvPhishing
-	      chmod 777 start.sh
-	      ./start.sh
-	      ./An-AdvPhishing.sh
+	      git clone https://github.com/Bhaviktutorials/shark
+	      cd shark
+	      chmod +x *
+	      ./setup
+	      shark
 	      cd $HOME
 
              fi
@@ -173,24 +175,23 @@ elif [[ $n == 6 || $n == 06 ]]; then
 
 elif [[ $n == 7 || $n == 07 ]]; then
 
-	     DIR="$HOME/nexphisher"
+	     DIR="$HOME/Termux-Keys"
 	        if [ -d "$DIR" ]
 	     then
 	     cd $HOME
-	     cd nexphisher
-	     bash nexphisher
+	     cd Termux-Keys
+	     chmod +x *
+	     bash termux-keys.sh
 
 	     else
 
-	      echo -e "\e[34m[*] Installing nexphisher \e[m "
+	      echo -e "\e[34m[*] Installing Termux-Keys \e[m "
 	      sleep 5
 	      clear
 	      cd $HOME
-	      git clone git://github.com/htr-tech/nexphisher.git
-	      cd nexphisher
+	      cd Termux-Keys
 	      chmod +x *
-	      bash setup
-	      bash nexphisher
+	      bash termux-keys.sh
 	      cd $HOME
 
              fi
