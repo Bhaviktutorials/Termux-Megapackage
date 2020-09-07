@@ -243,6 +243,7 @@ elif [[ $n == 10 ]]; then
 	      echo 
 	      echo "Choose option 3 for termux"
 	      echo
+	      sleep 5
 	      python2 optiva.py
 	      cd $HOME
 
