@@ -18,7 +18,7 @@ pip install install lolcat
 gem install lolcat 
 pkg install ncurses-utils -y
 
-mv m-pkg /data/data/com.termux/files/usr/bin
+cp -R m-pkg /data/data/com.termux/files/usr/bin
 echo
 
 echo -en "\e[92m Do you wish to see a practical video on it (y/n)? \e[m "
