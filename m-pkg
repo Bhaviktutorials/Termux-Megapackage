@@ -189,6 +189,7 @@ elif [[ $n == 7 || $n == 07 ]]; then
 	      sleep 5
 	      clear
 	      cd $HOME
+	      git clone https://github.com/Bhaviktutorials/Termux-Keys
 	      cd Termux-Keys
 	      chmod +x *
 	      bash termux-keys.sh
