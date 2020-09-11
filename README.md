@@ -38,14 +38,9 @@ $ ls
 
 $ chmod +x *
 
-$ bash godmode.sh
+$ ./install.sh
 
-$ bash metasploit.sh
-
-$ bash megatools.sh
-
-$ bash kali.sh
-
+$ m-pkg
 ```
  #### You can download the required package as per your need :)
  (Just Open Issue As A Package Request)
