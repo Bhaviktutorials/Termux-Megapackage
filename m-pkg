@@ -19,7 +19,7 @@ echo -e "\e[92m=================================================================
 echo -e "\e[32m[\e[33m01\e[32m]\e[96m zphisher \e[m                      \e[32m[\e[33m11\e[32m]\e[96m ubuntu-in-termux \e[m "                  
 echo -e "\e[32m[\e[33m02\e[32m]\e[96m HiddenEye \e[m                     \e[32m[\e[33m12\e[32m]\e[96m ghost \e[m "
 echo -e "\e[32m[\e[33m03\e[32m]\e[96m shark \e[m                         \e[32m[\e[33m13\e[32m]\e[96m TBomb \e[m "
-echo -e "\e[32m[\e[33m04\e[32m]\e[96m GodMode \e[m                       \e[32m[\e[33m14\e[32m]\e[96m WishFish \e[m "
+echo -e "\e[32m[\e[33m04\e[32m]\e[96m GodMode \e[m                       \e[32m[\e[33m14\e[32m]\e[96m grabcam \e[m "
 echo -e "\e[32m[\e[33m05\e[32m]\e[96m T-Remix \e[m                       \e[32m[\e[33m15\e[32m]\e[96m Impulse \e[m "
 echo -e "\e[32m[\e[33m06\e[32m]\e[96m Wirehsark \e[m                     \e[32m[\e[33m16\e[32m]\e[96m lockphish \e[m "
 echo -e "\e[32m[\e[33m07\e[32m]\e[96m Termux-Keys \e[m                   \e[32m[\e[33m17\e[32m]\e[96m RED_HAWK \e[m "
@@ -327,25 +327,25 @@ elif [[ $n == 13 ]]; then
 
 elif [[ $n == 14 ]]; then
 
-	     DIR="$HOME/WishFish"
+	     DIR="$HOME/grabcam"
 		if [ -d "$DIR" ]
 	     then 
 	     cd $HOME
-	     cd WishFish
-	     bash wishfish.sh
+	     cd grabcam
+	     bash grabcam.sh
 
 	     else
 
-	      echo -e "\e[34m[*] Installing WishFish \e[m "
+	      echo -e "\e[34m[*] Installing grabcam \e[m "
 	      sleep 7
 	      clear
 	      cd $HOME
-              apt-get install php wget openssh -yq --silent
-	      git clone https://github.com/kinghacker0/WishFish
+              apt-get install php wget openssh python python2 
+	      git clone https://github.com/noob-hackers/grabcam
 	      clear
-	      cd WishFish
-	      chmod +x wishfish.sh
-	      bash wishfish.sh
+	      cd grabcam
+	      chmod +x grabcam.sh
+	      bash grabcam.sh
 	      cd $HOME
 
              fi
