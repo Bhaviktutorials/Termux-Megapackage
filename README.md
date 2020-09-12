@@ -45,16 +45,26 @@ $ m-pkg
  #### You can download the required package as per your need :)
  (Just Open Issue As A Package Request)
  ### List Of Available Packages
- 1. *_GodMode_*
- 2. *_Metasploit_*
- 3. *_Termux-Megatools_*
-    * HidddenEye
-    * TBomb
-    * Zphisher
-    * Saydog-framework
-    * ipdrone
-    * NexPhisher
- 4. *_kali-nethunter-termux_*
+ 1. *_zphisher_*
+ 2. *_HiddenEye_*
+ 3. *_shark_*
+ 4. *_T-Remix_*
+ 5. *_GodMode_*
+ 6. *_WireShark_*
+ 7. *_Termux-Keys_*
+ 8. *_metasploit-framework_*
+ 9. *_Kali-nethunter-termux_*
+ 10. *_Optical-Framework_*
+ 11. *_ubuntu-in-termux_*
+ 12. *_ghost_*
+ 13. *_TBomb_*
+ 14. *_WishFish_*
+ 15. *_Impulse_*
+ 16. *_lockphish_*
+ 17. *_RED_HAWK_*
+ 18. *_termux-omz_*
+ 19. *_cupp_*
+ 20. *_Fakeroot_*
  ### Screenshots
  After Installing _GodMode_:-
 ![_GodMode_](https://user-images.githubusercontent.com/64035221/88885579-6747ca80-d256-11ea-8ad2-aee11f56a26c.jpg)
@@ -68,12 +78,5 @@ Tools:-
 Kali Nethunter:-
 ![Screenshot_20200730_111138](https://user-images.githubusercontent.com/64035221/88886028-4633a980-d257-11ea-8049-65082840b1b3.jpg)
 ***
- ### Tools edited
- * Ashish (7977821437)
- * Bhavik (ozabhavik2@gmail.com)
- ## Special Thanks to the Contributers
- 1) Hax4us (Termux Black & Metasploit)
- 2) Darksec-Developer (HiddenEye)
- 3) ThespeedX (TBomb)
- 4) htr-tech (zphisher & nexphisher)
- 5) saydog (Saydog-framework)
+
+
