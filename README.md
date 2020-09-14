@@ -42,6 +42,10 @@ $ ./install.sh
 
 $ m-pkg
 ```
+#### For Video Tutorial:-
+[YouTube](https://youtu.be/7xZFg67y1Ug)
+
+
  #### You can download the required package as per your need :)
  (Just Open Issue As A Package Request)
  ### List Of Available Packages
@@ -69,5 +73,8 @@ $ m-pkg
  After Installing _Termux-Megapackage_:-
 ![Screenshot_20200914_161120](https://user-images.githubusercontent.com/64035221/93076611-3ce68b00-f6a5-11ea-8e3e-8e8fd009a2e3.jpg)
 ***
+#### Bulid By:- 
 
+Ashish Signh / Bhavik Oza(bhavikoza1@gmail.com)
 
+####  If Like This Tool Dont Donate Just a Subscribe will be Awseome!!! 
