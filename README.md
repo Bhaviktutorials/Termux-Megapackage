@@ -66,17 +66,8 @@ $ m-pkg
  19. *_cupp_*
  20. *_Fakeroot_*
  ### Screenshots
- After Installing _GodMode_:-
-![_GodMode_](https://user-images.githubusercontent.com/64035221/88885579-6747ca80-d256-11ea-8ad2-aee11f56a26c.jpg)
-
-Megapackage Files:-
-![Megapackage Files](https://user-images.githubusercontent.com/64035221/88886226-9c085180-d257-11ea-8ebe-96e736c8c2e7.jpg)
-
-Tools:-
-![Tools:-](https://user-images.githubusercontent.com/64035221/88885828-de7d5e80-d256-11ea-94e1-196258e72c6b.jpg)
-
-Kali Nethunter:-
-![Screenshot_20200730_111138](https://user-images.githubusercontent.com/64035221/88886028-4633a980-d257-11ea-8049-65082840b1b3.jpg)
+ After Installing _Termux-Megapackage_:-
+![Screenshot_20200914_161120](https://user-images.githubusercontent.com/64035221/93076611-3ce68b00-f6a5-11ea-8e3e-8e8fd009a2e3.jpg)
 ***
 
 
